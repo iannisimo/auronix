@@ -14,8 +14,8 @@ on:
   workflow_dispatch:
 
 jobs:
-  build_push_latest:
-    name: Build and push latest image
+  build_push_stable:
+    name: Build and push stable image
     uses: ./.github/workflows/base_build.yml
     permissions:
       contents: read
