@@ -1,5 +1,5 @@
 # Allow build scripts to be referenced without being copied into the final image
-ARG UBRAND=bluefin
+ARG UBRAND=aurora
 ARG UFLAVOR=
 ARG USTREAM=latest
 
